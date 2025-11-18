@@ -1,11 +1,27 @@
-import React from 'react'
+
+import ProductCard from './ProductCard'
 
 const HomeProduct = () => {
   return (
-    <div>
-      
-    </div>
-  )
+    <>
+      <section className="bg-blue-50 min-h-60 mx-[1em] rounded-2xl ">
+        <h1 className="text-center font-bold text-5xl m-9 text-blue-400">
+          FEATURED PRODUCT
+        </h1>
+        <div className="flex gap-4 flex-wrap justify-center">
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          {/* <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard /> */}
+        </div>
+      </section>
+    </>
+  );
 }
 
 export default HomeProduct

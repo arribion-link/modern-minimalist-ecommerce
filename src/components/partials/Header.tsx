@@ -7,15 +7,15 @@ const Header = () => {
       <div className="">
         <Link to="">Arribion_Codnify</Link>
       </div>
-      <nav className="flex gap-5">
+      <nav className="flex gap-5 items-center">
         <ul className="flex gap-4">
-          <li>
+          <li className="nav-link">
             <NavLink to="">Products</NavLink>
           </li>
-          <li>
+          <li className="nav-link">
             <NavLink to="">Contact</NavLink>
           </li>
-          <li>
+          <li className="nav-link">
             <NavLink to="">About Us</NavLink>
           </li>
         </ul>

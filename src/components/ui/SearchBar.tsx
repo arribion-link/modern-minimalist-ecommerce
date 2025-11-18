@@ -2,9 +2,9 @@
 const SearchBar = () => {
   return (
     <>
-        <div>
+        <div className="bg-gray-800 rounded-2xl p-3 w-60">
             <label htmlFor="search"></label>
-            <input type="search" placeholder='search product...' />
+            <input type="search" placeholder='search product...' / >
         </div>
     </>
   )
