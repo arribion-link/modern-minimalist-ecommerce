@@ -10,12 +10,12 @@ const Home = () => {
           <h1 className="text-[clamp(2rem, 5vw, 4rem)] font-bold text-8xl">
             LAST DANCE
           </h1>
-          <p className="">
+          <p className="text-gray-500 text-2xl my-4">
             {" "}
-            Sustainably sourced, ethically made. Discover everyday essentials
+            Sustainably sourced, ethically made. <br /> Discover everyday essentials
             that feel good and do good.
           </p>
-          <button>GET STARTED</button>
+          <button className="border-2 w-80 hover:text-blue-600 p-3 mt-5">GET STARTED</button>
         </div>
         <div>
           <img src={hero_image} alt="" className="rounded-2xl max-w-98 block" />
