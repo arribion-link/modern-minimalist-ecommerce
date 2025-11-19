@@ -14,7 +14,7 @@ const HomeProduct = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
         {bestSellers.length > 0 ? (
           bestSellers.map((product) => (
-            <ProductCard key={product.id} name={product.name} price={product.price} />
+            <ProductCard key={product.id} name={product.name} price={product.price} image={product.image} />
           ))
         ) : (
           <p className="text-center col-span-full text-gray-500">

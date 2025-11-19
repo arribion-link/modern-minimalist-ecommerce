@@ -22,8 +22,14 @@ const Header = () => {
         <SearchBar />
       </nav>
       <div className="flex gap-3 items-center">
+        <Link to="https://github.com/arribion-link" target="_blank">
         <FaGithub size={35} />
-        <button className="text-black bg-white w-[10em] p-2 rounded-4xl font-bold">Login</button>
+        </Link>
+        <Link to="/auth/login">
+        <button className="text-black bg-white w-[10em] p-2 rounded-4xl font-bold">
+          Login
+        </button>
+        </Link>
       </div>
     </header>
   );

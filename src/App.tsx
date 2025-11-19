@@ -4,6 +4,7 @@ import Header from "./components/partials/Header";
 import Footer from "./components/partials/Footer";
 import ProductsPage from "./pages/ProductsPage";
 import ProductDetails from "./pages/ProductDetails";
+import PageNotFound from "./pages/util/PageNotFound";
 const App = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />}></Route>
         <Route path="/products" element={<ProductsPage />}></Route>
         <Route path="/product/details/:id" element={<ProductDetails />}></Route>
+        <Route path="*" element={<PageNotFound />}></Route>
       </Routes>
       <Footer />
     </>
