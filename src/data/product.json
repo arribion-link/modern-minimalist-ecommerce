@@ -1,7 +1,8 @@
 [
   {
     "id": "m-hood-001",
-    "name": "Men's Classic Pullover Hoodie",
+    "name": "Classic Pullover Hoodie",
+    "bestSeller": true,
     "category": "Men",
     "subCategory": "Hoodies",
     "price": 49.99,
@@ -16,7 +17,8 @@
   },
   {
     "id": "m-tshirt-001",
-    "name": "Men's Premium Crew Neck T-Shirt",
+    "name": "Premium Crew Neck T-Shirt",
+    "bestSeller": true,
     "category": "Men",
     "subCategory": "T-Shirts",
     "price": 24.99,
@@ -31,7 +33,8 @@
   },
   {
     "id": "w-dress-001",
-    "name": "Women's Wrap Midi Dress",
+    "name": "Wrap Midi Dress",
+    "bestSeller": true,
     "category": "Women",
     "subCategory": "Dresses",
     "price": 79.99,
@@ -46,7 +49,8 @@
   },
   {
     "id": "k-hood-001",
-    "name": "Kids' Dinosaur Glow Hoodie",
+    "name": "Dinosaur Glow Hoodie",
+    "bestSeller": true,
     "category": "Kids",
     "subCategory": "Hoodies",
     "price": 34.99,
@@ -61,7 +65,7 @@
   },
   {
     "id": "m-jacket-001",
-    "name": "Men's Waterproof Shell Jacket",
+    "name": "Waterproof Shell Jacket",
     "category": "Men",
     "subCategory": "Jackets",
     "price": 119.99,
@@ -76,7 +80,7 @@
   },
   {
     "id": "w-tshirt-001",
-    "name": "Women's V-Neck Essential Tee",
+    "name": "V-Neck Essential Tee",
     "category": "Women",
     "subCategory": "T-Shirts",
     "price": 19.99,
@@ -91,7 +95,7 @@
   },
   {
     "id": "k-shirt-001",
-    "name": "Kids' Button-Down Oxford Shirt",
+    "name": "Button-Down Oxford Shirt",
     "category": "Kids",
     "subCategory": "Shirts",
     "price": 28.99,
@@ -106,7 +110,7 @@
   },
   {
     "id": "m-pant-001",
-    "name": "Men's Slim-Fit Chino Pants",
+    "name": "Slim-Fit Chino Pants",
     "category": "Men",
     "subCategory": "Pants",
     "price": 59.99,
@@ -121,7 +125,7 @@
   },
   {
     "id": "w-jacket-001",
-    "name": "Women's Quilted Puffer Jacket",
+    "name": "Quilted Puffer Jacket",
     "category": "Women",
     "subCategory": "Jackets",
     "price": 89.99,
@@ -136,7 +140,7 @@
   },
   {
     "id": "k-short-001",
-    "name": "Kids' Active Mesh Shorts",
+    "name": "Active Mesh Shorts",
     "category": "Kids",
     "subCategory": "Shorts",
     "price": 18.99,
@@ -151,7 +155,7 @@
   },
   {
     "id": "m-hood-001",
-    "name": "Men's Classic Pullover Hoodie",
+    "name": "Classic Pullover Hoodie",
     "category": "Men",
     "subCategory": "Hoodies",
     "price": 49.99,
@@ -167,7 +171,7 @@
   },
   {
     "id": "m-tshirt-001",
-    "name": "Men's Premium Crew Neck T-Shirt",
+    "name": "Premium Crew Neck T-Shirt",
     "category": "Men",
     "subCategory": "T-Shirts",
     "price": 24.99,
@@ -183,7 +187,7 @@
   },
   {
     "id": "m-shirt-001",
-    "name": "Men's Slim-Fit Oxford Shirt",
+    "name": "Slim-Fit Oxford Shirt",
     "category": "Men",
     "subCategory": "Shirts",
     "price": 54.99,
@@ -199,7 +203,7 @@
   },
   {
     "id": "m-jacket-001",
-    "name": "Men's Waterproof Shell Jacket",
+    "name": "Waterproof Shell Jacket",
     "category": "Men",
     "subCategory": "Jackets",
     "price": 119.99,
@@ -215,7 +219,7 @@
   },
   {
     "id": "m-pant-001",
-    "name": "Men's Slim-Fit Stretch Chinos",
+    "name": "Slim-Fit Stretch Chinos",
     "category": "Men",
     "subCategory": "Pants",
     "price": 59.99,
@@ -231,7 +235,7 @@
   },
   {
     "id": "w-hood-001",
-    "name": "Women's Cropped Zip Hoodie",
+    "name": "Cropped Zip Hoodie",
     "category": "Women",
     "subCategory": "Hoodies",
     "price": 44.99,
@@ -247,7 +251,7 @@
   },
   {
     "id": "w-tshirt-001",
-    "name": "Women's V-Neck Modal Tee",
+    "name": "V-Neck Modal Tee",
     "category": "Women",
     "subCategory": "T-Shirts",
     "price": 19.99,
@@ -263,7 +267,7 @@
   },
   {
     "id": "w-dress-001",
-    "name": "Women's Floral Wrap Midi Dress",
+    "name": "Floral Wrap Midi Dress",
     "category": "Women",
     "subCategory": "Dresses",
     "price": 79.99,
@@ -279,7 +283,7 @@
   },
   {
     "id": "w-jacket-001",
-    "name": "Women's Quilted Puffer Jacket",
+    "name": "Quilted Puffer Jacket",
     "category": "Women",
     "subCategory": "Jackets",
     "price": 89.99,
@@ -295,7 +299,7 @@
   },
   {
     "id": "w-pant-001",
-    "name": "Women's High-Waist Leggings",
+    "name": "High-Waist Leggings",
     "category": "Women",
     "subCategory": "Pants",
     "price": 39.99,
@@ -311,7 +315,7 @@
   },
   {
     "id": "k-hood-001",
-    "name": "Kids' Glow-in-the-Dark Dino Hoodie",
+    "name": "Glow-in-the-Dark Dino Hoodie",
     "category": "Kids",
     "subCategory": "Hoodies",
     "price": 34.99,
@@ -327,7 +331,7 @@
   },
   {
     "id": "k-tshirt-001",
-    "name": "Kids' Graphic Astronaut T-Shirt",
+    "name": "Graphic Astronaut T-Shirt",
     "category": "Kids",
     "subCategory": "T-Shirts",
     "price": 19.99,
@@ -343,7 +347,7 @@
   },
   {
     "id": "k-shirt-001",
-    "name": "Kids' Button-Down Oxford Shirt",
+    "name": "Button-Down Oxford Shirt",
     "category": "Kids",
     "subCategory": "Shirts",
     "price": 28.99,
@@ -359,7 +363,7 @@
   },
   {
     "id": "k-short-001",
-    "name": "Kids' Active Mesh Shorts",
+    "name": "Active Mesh Shorts",
     "category": "Kids",
     "subCategory": "Shorts",
     "price": 18.99,
@@ -375,7 +379,7 @@
   },
   {
     "id": "k-jacket-001",
-    "name": "Kids' Waterproof Rain Jacket",
+    "name": "Waterproof Rain Jacket",
     "category": "Kids",
     "subCategory": "Jackets",
     "price": 42.99,

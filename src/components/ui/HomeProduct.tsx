@@ -1,22 +1,30 @@
-
-import ProductCard from './ProductCard'
+import ProductCard from "./ProductCard";
+import products from "../../data/product.json";
 
 const HomeProduct = () => {
-  return (
-    <>
-      <section className="bg-gray-50 min-h-60 mx-[1em] rounded-2xl p-8 ">
-        <h1 className="text-center font-bold text-5xl m-9 text-blue-400">
-          FEATURED PRODUCT
-        </h1>
-        <div className="flex gap-4 flex-wrap justify-center">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-        </div>
-      </section>
-    </>
-  );
-}
+  // Filter only the best sellers (exactly the 4 you marked)
+  const bestSellers = products.filter((product) => product.bestSeller === true);
 
-export default HomeProduct
+  return (
+    <section className="bg-gray-50 min-h-60 mx-[1em] rounded-2xl p-8 my-12">
+      <h1 className="text-center font-bold text-3xl mb-12 text-blue-500">
+        FEATURED PRODUCTS
+      </h1>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+        {bestSellers.length > 0 ? (
+          bestSellers.map((product) => (
+            <ProductCard key={product.id} name={product.name} price={product.price} />
+          ))
+        ) : (
+          <p className="text-center col-span-full text-gray-500">
+            No featured products yet.
+          </p>
+        )}
+      </div>
+    </section>
+  );
+};
+
+export default HomeProduct;
+

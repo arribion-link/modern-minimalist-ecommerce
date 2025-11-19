@@ -18,7 +18,7 @@ const Home = () => {
           <button className="border-2 w-80 hover:text-blue-600 p-3 mt-5">GET STARTED</button>
         </div>
         <div>
-          <img src={hero_image} alt="" className="rounded-2xl max-w-98 block" />
+          <img src={hero_image} alt="" className="rounded-2xl max-w-71 block" />
         </div>
       </section>
       <HomeProduct />
