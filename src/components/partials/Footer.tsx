@@ -2,17 +2,17 @@ const Footer = () => {
   return (
     <>
       <footer className="p-4 min-h-[50vh] pt-[10em]">
-         <hr />
+        <hr />
         <div className="flex justify-around py-20">
           <div>
-
-            <h1>ABOUT US</h1>
+            <h1 className="font-bold text-2xl">ABOUT US</h1>
             <p className="">
               &copy; <span>{new Date().getFullYear()}</span> Arribion Last Dance
               Became First. All Rights Reserved.
             </p>
           </div>
           <div>
+            <h1 className="font-bold text-2xl">Quick Links</h1>
             <ul>
               <li>
                 <a href="">HOME</a>
@@ -29,6 +29,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
+            <h1 className="font-bold text-2xl">Company</h1>
             <ul>
               <li>
                 <a href="">PRIVATE POLICY</a>
