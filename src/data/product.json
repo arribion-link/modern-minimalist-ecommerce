@@ -13,7 +13,7 @@
     "inStock": true,
     "rating": 4.5,
     "reviewsCount": 342,
-    "image": "https://via.placeholder.com/600x800/2c3e50/ffffff?text=Men+Hoodie+Black"
+    "image": "images/Classic Pullover Hoodie.jpg"
   },
   {
     "id": "m-tshirt-001",
@@ -29,7 +29,7 @@
     "inStock": true,
     "rating": 4.7,
     "reviewsCount": 892,
-    "image": "https://via.placeholder.com/600x800/ffffff/000000?text=Men+T-Shirt+White"
+    "image": "/images/Premium Crew Neck T-Shirt.jpg"
   },
   {
     "id": "w-dress-001",
@@ -45,7 +45,7 @@
     "inStock": true,
     "rating": 4.6,
     "reviewsCount": 156,
-    "image": "https://via.placeholder.com/600x800/27ae60/ffffff?text=Women+Wrap+Dress"
+    "image": "/images/Wrap Midi Dress.jpg"
   },
   {
     "id": "k-hood-001",
@@ -61,7 +61,7 @@
     "inStock": true,
     "rating": 4.8,
     "reviewsCount": 203,
-    "image": "https://via.placeholder.com/600x800/3498db/ffffff?text=Kids+Dino+Hoodie"
+    "image": "/images/Dinosaur Glow Hoodie.jpg"
   },
   {
     "id": "m-jacket-001",
@@ -76,7 +76,7 @@
     "inStock": true,
     "rating": 4.4,
     "reviewsCount": 98,
-    "image": "https://via.placeholder.com/600x800/2c3e50/ffffff?text=Men+Shell+Jacket"
+    "image": "/images/Waterproof Shell Jacket.jpg"
   },
   {
     "id": "w-tshirt-001",
@@ -91,7 +91,7 @@
     "inStock": true,
     "rating": 4.5,
     "reviewsCount": 567,
-    "image": "https://via.placeholder.com/600x800/ffebee/000000?text=Women+V-Neck+Tee"
+    "image": "/images/V-Neck Essential Tee.jpg"
   },
   {
     "id": "k-shirt-001",
@@ -106,7 +106,7 @@
     "inStock": true,
     "rating": 4.6,
     "reviewsCount": 78,
-    "image": "https://via.placeholder.com/600x800/e3f2fd/1565c0?text=Kids+Oxford+Shirt"
+    "image": "/images/Button-Down Oxford Shirt.jpg"
   },
   {
     "id": "m-pant-001",
@@ -121,7 +121,7 @@
     "inStock": true,
     "rating": 4.3,
     "reviewsCount": 412,
-    "image": "https://via.placeholder.com/600x800/d2b48c/000000?text=Men+Chino+Pants"
+    "image": "/images/Slim-Fit Chino Pants.jpg"
   },
   {
     "id": "w-jacket-001",
@@ -136,7 +136,7 @@
     "inStock": true,
     "rating": 4.7,
     "reviewsCount": 234,
-    "image": "https://via.placeholder.com/600x800/c2185b/ffffff?text=Women+Puffer+Jacket"
+    "image": "/images/Quilted Puffer Jacket.jpg"
   },
   {
     "id": "k-short-001",
@@ -151,7 +151,7 @@
     "inStock": true,
     "rating": 4.5,
     "reviewsCount": 145,
-    "image": "https://via.placeholder.com/600x800/39ff14/000000?text=Kids+Mesh+Shorts"
+    "image": "/images/Active Mesh Shorts.jpg"
   },
   {
     "id": "m-hood-001",
@@ -167,55 +167,7 @@
     "inStock": true,
     "rating": 4.5,
     "reviewsCount": 342,
-    "image": "https://via.placeholder.com/600x800/2c3e50/ffffff?text=Men+Classic+Hoodie"
-  },
-  {
-    "id": "m-tshirt-001",
-    "name": "Premium Crew Neck T-Shirt",
-    "category": "Men",
-    "subCategory": "T-Shirts",
-    "price": 24.99,
-    "originalPrice": null,
-    "badge": "Best Seller",
-    "description": "Premium ring-spun cotton with a soft feel and modern fit. Tagless label and reinforced shoulder seams for durability.",
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "colors": ["White", "Black", "Charcoal", "Olive"],
-    "inStock": true,
-    "rating": 4.7,
-    "reviewsCount": 892,
-    "image": "https://via.placeholder.com/600x800/ffffff/000000?text=Men+Premium+Tee"
-  },
-  {
-    "id": "m-shirt-001",
-    "name": "Slim-Fit Oxford Shirt",
-    "category": "Men",
-    "subCategory": "Shirts",
-    "price": 54.99,
-    "originalPrice": null,
-    "badge": "New",
-    "description": "Crisp cotton oxford with button-down collar and pearlized buttons. Tailored slim fit for a polished look.",
-    "sizes": ["S", "M", "L", "XL"],
-    "colors": ["White", "Light Blue", "Pink"],
-    "inStock": true,
-    "rating": 4.6,
-    "reviewsCount": 67,
-    "image": "https://via.placeholder.com/600x800/e3f2fd/1565c0?text=Men+Oxford+Shirt"
-  },
-  {
-    "id": "m-jacket-001",
-    "name": "Waterproof Shell Jacket",
-    "category": "Men",
-    "subCategory": "Jackets",
-    "price": 119.99,
-    "originalPrice": 149.99,
-    "badge": "Sale",
-    "description": "Fully seam-sealed, breathable 3-layer fabric with adjustable hood, pit zips, and waterproof zippers. Built for rain and wind.",
-    "sizes": ["S", "M", "L", "XL", "XXL"],
-    "colors": ["Black", "Olive", "Graphite"],
-    "inStock": true,
-    "rating": 4.4,
-    "reviewsCount": 98,
-    "image": "https://via.placeholder.com/600x800/2c3e50/ffffff?text=Men+Shell+Jacket"
+    "image": "/images/Classic Pullover Hoodie2.jpg"
   },
   {
     "id": "m-pant-001",
@@ -231,7 +183,7 @@
     "inStock": true,
     "rating": 4.3,
     "reviewsCount": 412,
-    "image": "https://via.placeholder.com/600x800/d2b48c/000000?text=Men+Chinos"
+    "image": "/images/Slim-Fit Stretch Chinos.jpg"
   },
   {
     "id": "w-hood-001",
@@ -247,7 +199,7 @@
     "inStock": true,
     "rating": 4.6,
     "reviewsCount": 289,
-    "image": "https://via.placeholder.com/600x800/e1bee7/000000?text=Women+Crop+Hoodie"
+    "image": "/images/Cropped Zip Hoodie.jpg"
   },
   {
     "id": "w-tshirt-001",
@@ -263,7 +215,7 @@
     "inStock": true,
     "rating": 4.5,
     "reviewsCount": 567,
-    "image": "https://via.placeholder.com/600x800/ffebee/000000?text=Women+V-Neck+Tee"
+    "image": "/images/V-Neck Modal Tee.jpg"
   },
   {
     "id": "w-dress-001",
@@ -279,23 +231,7 @@
     "inStock": true,
     "rating": 4.8,
     "reviewsCount": 412,
-    "image": "https://via.placeholder.com/600x800/1b5e20/ffffff?text=Women+Floral+Dress"
-  },
-  {
-    "id": "w-jacket-001",
-    "name": "Quilted Puffer Jacket",
-    "category": "Women",
-    "subCategory": "Jackets",
-    "price": 89.99,
-    "originalPrice": 129.99,
-    "badge": "Sale",
-    "description": "Lightweight, packable puffer with water-repellent shell, detachable hood, and fleece-lined pockets.",
-    "sizes": ["XS", "S", "M", "L", "XL"],
-    "colors": ["Rose Quartz", "Black", "Olive"],
-    "inStock": true,
-    "rating": 4.7,
-    "reviewsCount": 234,
-    "image": "https://via.placeholder.com/600x800/c2185b/ffffff?text=Women+Puffer"
+    "image": "/images/Floral Wrap Midi Dress.jpg"
   },
   {
     "id": "w-pant-001",
@@ -311,7 +247,7 @@
     "inStock": true,
     "rating": 4.9,
     "reviewsCount": 678,
-    "image": "https://via.placeholder.com/600x800/212121/ffffff?text=Women+Leggings"
+    "image": "/images/High-Waist Leggings.jpg"
   },
   {
     "id": "k-hood-001",
@@ -327,7 +263,7 @@
     "inStock": true,
     "rating": 4.8,
     "reviewsCount": 203,
-    "image": "https://via.placeholder.com/600x800/3498db/ffffff?text=Kids+Dino+Hoodie"
+    "image": "/images/Glow-in-the-Dark Dino Hoodie.jpg"
   },
   {
     "id": "k-tshirt-001",
@@ -343,39 +279,7 @@
     "inStock": true,
     "rating": 4.7,
     "reviewsCount": 156,
-    "image": "https://via.placeholder.com/600x800/ffffff/000000?text=Kids+Astronaut+Tee"
-  },
-  {
-    "id": "k-shirt-001",
-    "name": "Button-Down Oxford Shirt",
-    "category": "Kids",
-    "subCategory": "Shirts",
-    "price": 28.99,
-    "originalPrice": null,
-    "badge": null,
-    "description": "Wrinkle-resistant cotton oxford with button-down collar. Great for school photos or family events.",
-    "sizes": ["4", "5", "6", "7", "8", "10"],
-    "colors": ["White", "Light Blue", "Pink"],
-    "inStock": true,
-    "rating": 4.6,
-    "reviewsCount": 78,
-    "image": "https://via.placeholder.com/600x800/e3f2fd/1565c0?text=Kids+Oxford+Shirt"
-  },
-  {
-    "id": "k-short-001",
-    "name": "Active Mesh Shorts",
-    "category": "Kids",
-    "subCategory": "Shorts",
-    "price": 18.99,
-    "originalPrice": 24.99,
-    "badge": "Sale",
-    "description": "Lightweight polyester mesh with elastic waist and side pockets. Perfect for sports, playground, or camp.",
-    "sizes": ["4", "5", "6", "7", "8"],
-    "colors": ["Neon Green", "Black", "Royal Blue"],
-    "inStock": true,
-    "rating": 4.5,
-    "reviewsCount": 145,
-    "image": "https://via.placeholder.com/600x800/39ff14/000000?text=Kids+Mesh+Shorts"
+    "image": "/images/Graphic Astronaut T-Shirt.jpg"
   },
   {
     "id": "k-jacket-001",
@@ -391,6 +295,6 @@
     "inStock": true,
     "rating": 4.7,
     "reviewsCount": 89,
-    "image": "https://via.placeholder.com/600x800/ffeb3b/000000?text=Kids+Rain+Jacket"
+    "image": "/images/product-waterproof Rain Jacket.jpg"
   }
 ]
