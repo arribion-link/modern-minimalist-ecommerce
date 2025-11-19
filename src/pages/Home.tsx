@@ -5,10 +5,10 @@ import CallToAction from "../components/ui/CallToAction";
 const Home = () => {
   return (
     <>
-      <section className="min-h-[80vh] flex justify-around mt-30 items-center ">
+      <section className="min-h-[80vh] flex justify-around mt-30 items-center mx-4 ">
         <div>
-          <h1 className="text-[clamp(2rem, 5vw, 4rem)] font-bold text-8xl">
-            LAST DANCE
+          <h1 className="text-[clamp(2rem, 5vw, 4rem)] font-bold text-6xl">
+            DESIGNS THAT MATTER
           </h1>
           <p className="text-gray-500 text-2xl my-4">
             {" "}
