@@ -1,6 +1,39 @@
-import { Link } from "react-router-dom"
+import { Link, useParams } from "react-router-dom";
+import oops_image from "../assets/oops.jpg";
 import { IoCartOutline } from "react-icons/io5";
-const ProductDetails = () => {
+import Cart from "../components/ui/Cart";
+import products from "../data/product.json";
+
+type Product = {
+  id: number | string;
+  name: string;
+  price: number;
+  description: string;
+  image?: string;
+};
+
+const ProductDetails: React.FC = () => {
+  const { id } = useParams<{ id: string }>();
+  const product = products.find((p: Product) => p.id.toString() === id) as
+    | Product
+    | undefined;
+
+  if (!product) {
+    return (
+      <div className="mt-[10em] flex justify-center">
+        <div>
+          <img src={oops_image} alt="not found" className="max-w-[15em]" />
+          <h1 className="text-3xl font-bold text-red-500 text-center">
+            Oops Something Went wrong!!!
+          </h1>
+          <h2 className="text-center text-2xl">
+            can't get the product details
+          </h2>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <section className="mt-30 min-h-[50vh] mx-4">
       <ul className="flex gap-4">
@@ -8,64 +41,65 @@ const ProductDetails = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/">Products</Link>
+          <Link to="/products">Products</Link>
         </li>
       </ul>
 
       <hr className="my-4" />
 
       <div className="flex gap-8">
-        <div>
-          <div className="bg-blue-400 rounded-2xl min-w-[15em] min-h-[40vh]">
-            <img src="" alt="" />
-          </div>
-          {/* <div className="flex gap-4">
-            <div className="bg-blue-500 w-[10em] h-[10em] rounded-2xl">
-              <img src="" alt="" />
-            </div>
-            <div className="bg-blue-500 w-[10em] h-[10em] rounded-2xl">
-              <img src="" alt="" />
-            </div>
-            <div className="bg-blue-500 w-[10em] h-[10em] rounded-2xl">
-              <img src="" alt="" />
-            </div>
-          </div> */}
+        <div className="bg-gray-100 rounded-2xl min-w-[25em] min-h-[40vh] flex items-center justify-center">
+          <img
+            src={product.image ?? oops_image}
+            alt={product.name}
+            className="max-w-full max-h-full"
+          />
         </div>
+
         <div>
-          <h1>Name</h1>
-          <h2>KES 12,000</h2>
-          <div>
-            colors
-            <div>
-              <span>RED</span>
-              <span>RED</span>
-              <span>RED</span>
-            </div>
+          <h1 className="font-bold text-3xl mb-2">{product.name}</h1>
+          <h2 className="text-yellow-400 font-bold text-2xl mb-2">
+            KES <span>{product.price}</span>
+          </h2>
+
+          <div className="flex gap-4 mb-8">
+            <span className="bg-gray-300 p-2 rounded border cursor-pointer hover:border-blue-500">
+              S
+            </span>
+            <span className="bg-gray-300 p-2 rounded border cursor-pointer hover:border-blue-500">
+              M
+            </span>
+            <span className="bg-gray-300 p-2 rounded border cursor-pointer hover:border-blue-500">
+              L
+            </span>
+            <span className="bg-gray-300 p-2 rounded border cursor-pointer hover:border-blue-500">
+              XL
+            </span>
+            <span className="bg-gray-300 p-2 rounded border cursor-pointer hover:border-blue-500">
+              XXL
+            </span>
           </div>
-          <div>
-            <span>S</span>
-            <span>M</span>
-            <span>L</span>
-            <span>XL</span>
-            <span>XXL</span>
-          </div>
+
           <hr />
+
           <div className="flex gap-4">
-            <button className="bg-blue-700 border rounded-2xl w-[10em] font-bold my-4 ">
+            <button className="bg-blue-700 border rounded-2xl w-[10em] font-bold my-4 py-2">
               BUY NOW
             </button>
             <button className="flex gap-4 border rounded-2xl w-[10em] font-bold items-center my-4">
               <IoCartOutline /> ADD TO CART
             </button>
           </div>
+
           <hr />
-          <p>Description</p>
+
+          <p>{product.description}</p>
         </div>
 
-        <div className="bg-blue-50 w-[30em] h-[30em] rounded-2xl"></div>
+        <Cart />
       </div>
     </section>
   );
-}
+};
 
-export default ProductDetails
+export default ProductDetails;

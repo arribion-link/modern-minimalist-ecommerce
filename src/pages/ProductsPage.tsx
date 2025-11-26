@@ -9,7 +9,7 @@ const ProductsPage = () => {
         <ProductPageHeader />
         <div className="grid grid-cols-[repeat(4,minmax(250px,1fr))] gap-4">
           {products.map((product) => (
-            <Link to="/product/details/:id">
+            <Link to={`/product/details/${product.id}`}>
               <ProductCard
                 price={product.price}
                 name={product.name}
