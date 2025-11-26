@@ -52,7 +52,7 @@ const ProductDetails: React.FC = () => {
           <img
             src={product.image ?? oops_image}
             alt={product.name}
-            className="max-w-full max-h-full"
+            className="max-w-full max-h-[20em]"
           />
         </div>
 
