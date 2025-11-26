@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 const Header = () => {
   return (
     <header className=" flex justify-between p-4 fixed top-0 left-0 right-0 z-50 bg-black text-white w-full shadow-md">
-      <div className="font-bold text-3xl">
+      <div className="font-bold text-3xl text-yellow-500">
         <Link to="">Arribion</Link>
       </div>
       <nav className="flex gap-5 items-center">
@@ -26,7 +26,7 @@ const Header = () => {
         <FaGithub size={35} />
         </Link>
         <Link to="/auth/login">
-        <button className="text-black bg-white w-[10em] p-2 rounded-4xl font-bold">
+        <button className="text-black bg-white w-[10em] px-2 py-1 rounded-4xl font-bold">
           Login
         </button>
         </Link>

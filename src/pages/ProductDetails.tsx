@@ -19,7 +19,7 @@ const ProductDetails = () => {
           <div className="bg-blue-400 rounded-2xl min-w-[15em] min-h-[40vh]">
             <img src="" alt="" />
           </div>
-          <div className="flex gap-4">
+          {/* <div className="flex gap-4">
             <div className="bg-blue-500 w-[10em] h-[10em] rounded-2xl">
               <img src="" alt="" />
             </div>
@@ -29,7 +29,7 @@ const ProductDetails = () => {
             <div className="bg-blue-500 w-[10em] h-[10em] rounded-2xl">
               <img src="" alt="" />
             </div>
-          </div>
+          </div> */}
         </div>
         <div>
           <h1>Name</h1>

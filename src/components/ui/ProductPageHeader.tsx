@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-
+import { CiFilter } from "react-icons/ci";
 const ProductPageHeader = () => {
   return (
     <>
@@ -16,9 +16,20 @@ const ProductPageHeader = () => {
             <Link to="">Women</Link>
           </li>
         </ul>
-        <h1 className="text-4xl font-bold mb-9 mt-8">Shop the Collection</h1>
+        <hr className="my-8" />
+        <div className="flex justify-between items-center">
+          <div>
+            <h1 className="text-4xl font-bold mb-4 mt-8">
+              Shop the Collection
+            </h1>
+          </div>
+          <div className="flex items-center gap-4 border rounded px-4 py-2 ">
+            <CiFilter />
+            filter
+          </div>
+        </div>
       </div>
-      <hr />
+      <hr className="mb-8" />
     </>
   );
 }

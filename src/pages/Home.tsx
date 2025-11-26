@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <section className="min-h-[80vh] flex justify-around mt-30 items-center mx-4 ">
         <div>
-          <h1 className="text-[clamp(2rem, 5vw, 4rem)] font-bold text-6xl">
+          <h1 className="text-[clamp(2rem, 5vw, 4rem)] font-bold text-6xl text-yellow-500">
             DESIGNS THAT MATTER
           </h1>
           <p className="text-gray-500 text-2xl my-4">
