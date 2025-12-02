@@ -1,7 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import oops_image from "../assets/oops.jpg";
 import { IoCartOutline } from "react-icons/io5";
-import Cart from "../components/ui/Cart";
 import products from "../data/product.json";
 
 type Product = {
@@ -47,7 +46,7 @@ const ProductDetails: React.FC = () => {
 
       <hr className="my-4" />
 
-      <div className="flex gap-8">
+      <div className="flex flex-col md:flex-row gap-8">
         <div className="bg-gray-100 rounded-2xl min-w-[25em] min-h-[40vh] flex items-center justify-center">
           <img
             src={product.image ?? oops_image}
@@ -62,7 +61,7 @@ const ProductDetails: React.FC = () => {
             KES <span>{product.price}</span>
           </h2>
 
-          <div className="flex gap-4 mb-8">
+          <div className="flex  gap-4 mb-8">
             <span className="bg-gray-300 p-2 rounded border cursor-pointer hover:border-blue-500">
               S
             </span>
@@ -95,8 +94,6 @@ const ProductDetails: React.FC = () => {
 
           <p>{product.description}</p>
         </div>
-
-        <Cart />
       </div>
     </section>
   );

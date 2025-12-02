@@ -3,7 +3,7 @@ const Footer = () => {
     <>
       <footer className="p-4 min-h-[50vh] pt-[10em]">
         <hr />
-        <div className="flex justify-around py-20">
+        <div className="grid gap-5 md:grid-cols-3 ">
           <div>
             <h1 className="font-bold text-2xl">ABOUT US</h1>
             <p className="">

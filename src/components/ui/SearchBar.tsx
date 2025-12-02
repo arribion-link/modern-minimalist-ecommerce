@@ -2,7 +2,7 @@
 const SearchBar = () => {
   return (
     <>
-      <div className="bg-gray-800 rounded-4xl py-2 w-[20em] px-4 ">
+      <div className="bg-gray-800 rounded-4xl py-2 w-[15em] px-4 ">
         <label htmlFor="search"></label>
         <input
           type="search"

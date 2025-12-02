@@ -10,7 +10,7 @@ const CallToAction = () => {
                 Discover our curated collection of timeless essentials <br /> designed to
                 make you feel your best.
             </p>
-            <button className="bg-white text-black p-2 w-80 m-4 font-bold">Find Your Perfect Fit</button>
+            <button className="bg-white text-black p-2 w-fit m-4 font-bold">Find Your Perfect Fit</button>
         </div>
       </section>
     </>
