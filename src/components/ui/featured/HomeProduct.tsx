@@ -1,5 +1,5 @@
-import ProductCard from "./ProductCard";
-import products from "../../data/product.json";
+import ProductCard from "../ProductCard";
+import products from "../../../data/product.json";
 import { Link } from "react-router-dom";
 
 const HomeProduct = () => {
@@ -7,7 +7,7 @@ const HomeProduct = () => {
 
   return (
     <section className="bg-gray-50 min-h-60 mx-[1em] rounded-2xl p-8">
-      <h1 className="text-center font-bold text-3xl mb-12 text-blue-500">
+      <h1 className="text-start font-bold text-3xl mb-12 text-black">
         FEATURED PRODUCTS
       </h1>
 
