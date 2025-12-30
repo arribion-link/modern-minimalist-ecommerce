@@ -3,31 +3,52 @@ import SearchBar from "../ui/SearchBar";
 import { FaGithub } from "react-icons/fa";
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi"; // hamburger + close icons
+import { FaBagShopping, FaHeart } from "react-icons/fa6";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header className="flex justify-between items-center p-4 fixed top-0 left-0 right-0 z-50 bg-black text-white w-full shadow-md">
-      {/* Logo */}
-      <div className="font-bold text-2xl text-yellow-500">
-        <Link to="/">Arribion</Link>
-      </div>
-
       {/* Desktop Nav */}
       <nav className="hidden md:flex gap-5 items-center">
         <ul className="flex gap-4">
           <li>
-            <NavLink to="/products">Products</NavLink>
+            <NavLink to="/products">Shop</NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/contact">Collections</NavLink>
           </li>
           <li>
-            <NavLink to="/about">About Us</NavLink>
+            <NavLink to="/about">Sale</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">New Arrivals</NavLink>
           </li>
         </ul>
-        <SearchBar />
+      </nav>
+
+      <div>
+        {/* Logo */}
+        <div className="font-bold text-2xl text-yellow-500">
+          <Link to="/">NEWfy</Link>
+        </div>
+      </div>
+
+      <nav className="flex gap-4 items-center">
+        <ul className="flex gap-4">
+          <li>
+            <NavLink to="/contact">Men</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">Women</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">Kids</NavLink>
+          </li>
+        </ul>
+        <FaHeart />
+        <FaBagShopping/>
       </nav>
 
       {/* Right side (GitHub + Login) */}
