@@ -5,3 +5,7 @@
         @apply hover:text-blue-400;
     }
 }
+
+body{
+    background-color: gainsboro;
+}

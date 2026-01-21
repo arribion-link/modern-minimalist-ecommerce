@@ -31,11 +31,11 @@ const Header = () => {
       <div>
         {/* Logo */}
         <div className="font-bold text-2xl text-yellow-500">
-          <Link to="/">NEWfy</Link>
+          <Link to="/">newfly</Link>
         </div>
       </div>
 
-      <nav className="flex gap-4 items-center">
+      <nav className="hidden md:flex gap-4 items-center">
         <ul className="flex gap-4">
           <li>
             <NavLink to="/contact">Men</NavLink>

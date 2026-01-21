@@ -5,7 +5,7 @@ const CallToAction = () => {
     <>
       <section className="rounded-2xl min-h-[40vh] bg-black my-20 mx-4 p-[1em]">
         <div className="text-white text-center ">
-            <h1 className="font-bold text-6xl my-5">SUBSCRIBE FOR EXCLUSIVE <br /> FASHION INSIGNT</h1>
+            <h1 className="font-bold text-[clamp(2em,5vw,3em)] my-5">SUBSCRIBE FOR EXCLUSIVE <br /> FASHION INSIGNT</h1>
             <p>
                 Discover our curated collection of timeless essentials <br /> designed to
                 make you feel your best.
