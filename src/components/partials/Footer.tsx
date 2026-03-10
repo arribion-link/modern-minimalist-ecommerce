@@ -1,18 +1,18 @@
 const Footer = () => {
   return (
     <>
-      <footer className="p-4 min-h-[50vh] pt-[10em]">
-        <hr />
-        <div className="grid gap-5 md:grid-cols-3 ">
+      <footer className="min-h-[80vh] pt-[10em]">
+        <hr className="my-18 text-slate-500/50" />
+        <div className="grid gap-5 mx-4 mb-6 md:grid-cols-3 ">
           <div>
-            <h1 className="font-bold text-2xl">ABOUT US</h1>
+            <h1 className="font-bold text-2xl mb-3">ABOUT US</h1>
             <p className="">
               &copy; <span>{new Date().getFullYear()}</span> Arribion Last Dance
-              Became First. All Rights Reserved.
+              Became First. <br /> All Rights Reserved.
             </p>
           </div>
           <div>
-            <h1 className="font-bold text-2xl">Quick Links</h1>
+            <h1 className="font-bold text-2xl mb-3">Quick Links</h1>
             <ul>
               <li>
                 <a href="">HOME</a>
@@ -29,7 +29,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h1 className="font-bold text-2xl">Company</h1>
+            <h1 className="font-bold text-2xl mb-3">Company</h1>
             <ul>
               <li>
                 <a href="">PRIVATE POLICY</a>
@@ -49,7 +49,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <hr />
+        <div className="w-full bg-black p-4 text-white">
+          <h1 className="text-center">Jeff Muethia Ntongai</h1>
+        </div>
       </footer>
     </>
   );

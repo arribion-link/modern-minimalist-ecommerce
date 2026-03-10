@@ -14,10 +14,10 @@ const Discover = () => {
           DISCOVER COLLECTIONS <FaArrowRightLong size={20} />{" "}
         </button>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-[10em] ">
-          <div className=" bg-[url(../assets/discover1.jpg)] bg-center bg-cover min-h-[70vh] bg-gray-400 rounded-2xl">
+          <div className=" hover:shadow-2xl bg-[url(../assets/discover1.jpg)] bg-center bg-cover min-h-[70vh] bg-gray-400 rounded-2xl">
             <GoArrowUpRight size={50} className="text-white top-4 right-4" />
           </div>
-          <div className=" bg-[url(../assets/discover2.jpg)] bg-center bg-cover  min-h-[70vh] bg-gray-400 rounded-2xl">
+          <div className=" hover:shadow-2xl bg-[url(../assets/discover2.jpg)] bg-center bg-cover  min-h-[70vh] bg-gray-400 rounded-2xl">
             <GoArrowUpRight size={50} className="text-black top-4 right-4" />
           </div>
         </div>

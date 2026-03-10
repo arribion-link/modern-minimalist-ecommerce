@@ -54,6 +54,7 @@ const Collection = () => {
        
           hover:shadow-2xl 
           shadow-md
+          hover:cursor-pointer
         ">
               <h1 className="text-4xl bg-slate-200 text-white rounded-4xl py-2 px-3 w-fit">
                 02
@@ -76,8 +77,9 @@ const Collection = () => {
        
           hover:shadow-2xl 
           shadow-md
+          hover:cursor-pointer
         ">
-              <h1 className="text-4xl bg-slate-200 text-white rounded-4xl py-2 px-3 w-fit">
+              <h1 className="text-4xl  hover:shadow-2xl bg-slate-200 text-white rounded-4xl py-2 px-3 w-fit">
                 03
               </h1>
             </div>
@@ -148,7 +150,7 @@ const Collection = () => {
           shadow-lg 
           hover:shadow-2xl
         ">
-              <h1 className="text-4xl bg-slate-200 text-white rounded-4xl py-2 px-3 w-fit">
+              <h1 className="text-4xl  hover:shadow-2xl bg-slate-200 text-white rounded-4xl py-2 px-3 w-fit">
                 06
               </h1>
             </div>
